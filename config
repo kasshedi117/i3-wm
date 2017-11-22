@@ -133,3 +133,6 @@ bar {
         status_command i3status
 }
 
+# set desktop background
+exec --no-startup-id feh --bg-fill -z /home/kass/.kass/pictures/archLinux/poweredByArchinux.jpg
+exec --no-startup-id compton -bCG
