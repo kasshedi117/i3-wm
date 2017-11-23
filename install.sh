@@ -2,5 +2,7 @@
 clear
 
 rm -rf ~/.config/i3/config
-cp config ~/.config/i3/
+rm -rf ~/.config/i3status
+cp i3/config ~/.config/i3/
+cp -R i3status ~/.config
 
