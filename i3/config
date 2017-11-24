@@ -86,16 +86,16 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1:Web "
-set $workspace2 "2:Terminal "
-set $workspace3 "3:File Manager "
-set $workspace4 "4:Music "
-set $workspace5 "5:Video "
-set $workspace6 "6:Game "
-set $workspace7 "7:Email "
-set $workspace8 "8:Work "
-set $workspace9 "9:Misc "
-set $workspace10 "10:Spotify "
+set $workspace1 "1:Terminal "
+set $workspace2 "2:Firefox  "
+set $workspace3 "3:Vim  "
+set $workspace4 "4:Dev  " 
+set $workspace5 "5:WorkSpace  "
+set $workspace6 "6:Other  "
+set $workspace7 "7:Design  "
+set $workspace8 "8:Email "
+set $workspace9 "9:Facebook  " 
+set $workspace10 "10:Youtube  " 
 
 
 # switch to workspace
