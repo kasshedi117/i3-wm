@@ -87,16 +87,16 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1:Terminal "
-set $workspace2 "2:Firefox  "
-set $workspace3 "3:Vim  "
-set $workspace4 "4:Dev  " 
-set $workspace5 "5:WorkSpace  "
-set $workspace6 "6:Other  "
-set $workspace7 "7:Design  "
-set $workspace8 "8:Email "
-set $workspace9 "9:Facebook  " 
-set $workspace10 "10:Youtube  " 
+set $workspace1 "1:Web "
+set $workspace2 "2:Terminal "
+set $workspace3 "3:File Manager "
+set $workspace4 "4:Music "
+set $workspace5 "5:Video "
+set $workspace6 "6:Game "
+set $workspace7 "7:Email "
+set $workspace8 "8:Work "
+set $workspace9 "9:Misc "
+set $workspace10 "10:Spotify "
 
 
 # switch to workspace
@@ -128,15 +128,15 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-
+bindsym $mod+Shift+s exec gnome-screenshot
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
-        bindsym $mod+h resize shrink width 10 px or 10 ppt
-        bindsym $mod+j resize grow height 10 px or 10 ppt
-        bindsym $mod+k resize shrink height 10 px or 10 ppt
-        bindsym $mod+l resize grow width 10 px or 10 ppt
+        bindsym $mod+h resize shrink width 1 px or 1 ppt
+        bindsym $mod+j resize grow height 1 px or 1 ppt
+        bindsym $mod+k resize shrink height 1 px or 1 ppt
+        bindsym $mod+l resize grow width 1 px or 1 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -151,8 +151,4 @@ bar {
         status_command i3status
         position top
 }
-
-# set desktop background
-exec --no-startup-id feh --bg-fill -z /home/kass/.kass/pictures/archLinux/poweredByArchinux.jpg
-exec --no-startup-id compton -bCG
 
