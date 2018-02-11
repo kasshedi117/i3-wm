@@ -4,14 +4,14 @@ color=#586e75
 separator=false
 separator_block_width=10
 markup=pango
-command=/home/riadh/.config/i3blocks/i3blocks/scripts/bandwidth
+command=~/.config/i3blocks/scripts/bandwidth
 
 
 
 
 
 [memory]
-command=~/.config/i3blocks/i3blocks/scripts/memory
+command=~/.config/i3blocks/scripts/memory
 label=MEM
 separator=false
 interval=30
@@ -23,7 +23,7 @@ color=#ad3234
 [volume]
 full_text=
 label=
-command=~/.config/i3blocks/i3blocks/scripts/volume
+command=~/.config/i3blocks/scripts/volume
 color=#d33682
 interval=once
 signal=12
@@ -58,26 +58,26 @@ interval=99999
 [wireless]
 label=
 instance=wlp2s0
-command=/home/riadh/.config/i3blocks/i3blocks/scripts/wifi
+command=~/.config/i3blocks/scripts/wifi
 color=#00FF00
 interval=30
 
 [iface]
-command=/home/riadh/.config/i3blocks/i3blocks/scripts/iface
+command=~/.config/i3blocks/scripts/iface
 color=#00FF00
 interval=10
 
 [separator]
 [cpu_usage]
 label=CPU
-command=/home/riadh/.config/i3blocks/i3blocks/scripts/cpu_usage
+command=~/.config/i3blocks/scripts/cpu_usage
 interval=10
 min_width=CPU: 100.00%
 
 [separator]
 [disk]
 label=HOME
-command=~/.config/i3blocks/i3blocks/scripts/disk
+command=~/.config/i3blocks/scripts/disk
 interval=30
 color=#cb4b16
 [separator]
@@ -85,7 +85,7 @@ color=#cb4b16
 [ethernet]
 label=
 instance=eno1
-command=~/.config/i3blocks/i3blocks/scripts/iface
+command=~/.config/i3blocks/scripts/iface
 color=#859900
 interval=30
 
@@ -93,7 +93,7 @@ interval=30
 
 [battery]
 label=
-command=~/.config/i3blocks/i3blocks/scripts/battery
+command=~/.config/i3blocks/scripts/battery
 color=#F2344F
 interval=30
 
