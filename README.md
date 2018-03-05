@@ -19,3 +19,9 @@ install i3 i3blocks i3 gaps
 
 
 after that exec install.sh
+
+install zsh 
+
+
+
+install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh.git)
